@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	
+	<title>DEVPROX</title>
+</head>
+
+<body>
+	<div id="header">
+		<h2>Welcome, Please enter your details on the form below, when done press submit</h2>
+	</div>
+	<div id="form">
+		<form action="capturePerson" method="POST">
+			<label>Name</label><br/>
+			<input type="text" name="firstName" style="width: 600px"/><br/>
+			<label>Surname</label><br/>
+			<input type="text" name="lastName" style="width: 600px"/><br/>
+			<label>ID Number</label><br/>
+			<input type="text" name="idNo"style="width: 600px"/><br/>
+			<label>Date of Birth</label><br/>
+			<input type="date" name="dateOfBirth" id="myDate" placeholder="dd-mm-yyyy" value="" min="1970-01-01" max="2022-06-30" style="width: 600px"/><br/>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	
+</body>
+
+</html>
